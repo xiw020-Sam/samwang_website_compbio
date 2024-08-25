@@ -1,0 +1,72 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0077cc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Reduced size of profile picture */
+.profile-pic {
+    width: 150px; /* Adjusted size to half */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 20px; /* Space between image and text */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #0077cc;
+}
+
+p {
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+h2, h3 {
+    color: #0077cc;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1em 0;
+}
