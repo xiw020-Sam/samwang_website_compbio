@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sam Wang - Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -13,9 +16,9 @@
             <a href="#about">About</a>
             <a href="#education">Education</a>
             <a href="#publications">Publications</a>
+            <a href="#projects">Projects</a>
             <a href="#presentations">Presentations</a>
             <a href="#research">Research Experience</a>
-            <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -23,11 +26,14 @@
         <div class="contact-links">
             <a href="https://github.com/xiw020-Sam/samwang_website_compbio/blob/main/Xi_Sam_Wang_CV.pdf" target="_blank">Download CV</a> | 
             <a href="https://x.com/xiw020" target="_blank">X Profile</a> | 
-            <a href="mailto:xiwang@hms.harvard.edu">Email Me</a> 
+            <a href="mailto:xiwang2@ethz.ch">Email Me</a> 
         </div>
     </header>
 
     <section id="home">
+        <div class="recruiting-banner">
+            <p><strong>Recruiting:</strong> I am recruiting interns and master's students to conduct their studies at the Computational Biology Group at ETH Zurich under the supervision of Dr. Niko Beerenwinkel and me. If you are interested in perturbation modeling, AI agents, or cancer phylogeny, please email <a href="mailto:xiwang2@ethz.ch">xiwang2@ethz.ch</a> with a short research-interest paragraph and your resume/CV. I am also open to collaborations in these areas or in AI for Biology more broadly.</p>
+        </div>
         <div class="header-container">
             <img src="images/profile.jpg" alt="Sam Wang" class="profile-pic">
             <div>
@@ -44,6 +50,7 @@
 
     <section id="education">
         <h2>Education</h2>
+        <p><strong>ETH Zurich</strong> - Ph.D. in AI for Biology (Sep 2025 – Sep 2029)</p>
         <p><strong>Harvard Medical School</strong> - S.M. in Biomedical Informatics, GPA: 4.0/4.0 (Aug 2022 – May 2024)</p>
         <p>Concentrations: AI/Machine-Learning and Cancer Genomics</p>
         <p><strong>University of California – San Diego</strong> - B.S. in Bioengineering: Bioinformatics, GPA: 3.84/4.0 (Sep 2018 – June 2022)</p>
@@ -54,9 +61,13 @@
         <h2>Publications</h2>
         <ul>
             <li>
-                <strong>Xi Wang</strong>, Simona Cristea, <em>evoCancerGPT: Generating Cancer Progression Using Single-Cell RNA Sequencing Data in a Zero-Shot Manner</em>, October 2024. <br>
-                Submitted to <em>The 29th Annual International Conference on Research in Computational Molecular Biology (RECOMB 2025)</em>. <br>
-                (<a href="https://tinyurl.com/2ap37aks" target="_blank">Manuscript</a>).
+                <strong>Xi Wang</strong>, Simona Cristea, <em>evoCancerGPT: Generating Cancer Progression Using Single-Cell RNA Sequencing Data in a Zero-Shot Manner</em>, In preparation.
+            </li>
+            <li>
+                <strong>Xi Wang</strong>, Runzi Tan, Bo Wang, Simona Cristea, 
+                <em>Biological Reasoning with Reinforcement Learning through Natural Language Enables Generalizable Zero-Shot Cell Type Annotations</em>, <em>bioRxiv</em>, June 2025. <br>
+                Presented at <em>ICML 2025 GenBio Workshop</em> (Poster). <br>
+                (<a href="https://www.biorxiv.org/content/biorxiv/early/2025/06/24/2025.06.17.659642.full.pdf" target="_blank">Manuscript</a>).
             </li>
             <li>
                 Marcos Díaz-Gay, Raviteja Vangara, Mark Barnes, <strong>Xi Wang</strong>, S M Ashiqul Islam, Ian Vermes, Stephen Duke, Nithish Bharadhwaj Narasimman, Ting Yang, Zichen Jiang, Sarah Moody, Sergey Senkin, Paul Brennan, Michael R Stratton, Ludmil B Alexandrov, 
@@ -64,6 +75,26 @@
                 (<a href="https://doi.org/10.1093/bioinformatics/btad756" target="_blank">Manuscript</a>).
             </li>
 
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Currently working on 3 projects. Selected highlights:</p>
+        <h3>Perturbation virtual cell modeling</h3>
+        <p>Investigating biological signal-to-noise ratios and what they reveal about virtual cell modeling.</p>
+
+        <h3>Deep learning for tumor phylogenetic trees from single-cell data</h3>
+        <p>Developing models to infer tumor phylogenies from single-cell datasets.</p>
+
+        <h3>AI Society of Minds</h3>
+        <p>Studying how societies of agents can be coordinated for better collective outcomes, inspired by human society.</p>
+
+        <h3>Past Projects</h3>
+        <ul class="project-list">
+            <li><strong>RxPlorer, Harvard University</strong> — Pre-trained large language model for biomedical research meta-analysis; fine-tuned Llama2 and built web frontend and backend.</li>
+            <li><strong>Yogurt World</strong> — Designed a website for UCSD’s favorite yogurt place using HTML and Figma, implemented on GitHub.</li>
+            <li><strong>Zoo Seeker</strong> — Android app that uses the Traveling Salesman algorithm to find the shortest path to animal exhibits.</li>
         </ul>
     </section>
 
@@ -120,18 +151,6 @@
         <p>Worked on a senior design project for surgical restoration of the anterior cruciate ligament and knee biomechanics, including improving surgical techniques for ACL reconstruction using rabbit models and quantifying marine animal teeth enamel structure using micro-CT.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>RxPlorer, Harvard University</h3>
-        <p>Pre-trained Large Language Model for biomedical research meta-analysis. Involved fine-tuning Llama2 and creating a web-frontend and backend.</p>
-
-        <h3>Yogurt World</h3>
-        <p>Designed a website for UCSD’s favorite yogurt place using HTML and Figma, implemented on GitHub.</p>
-
-        <h3>Zoo Seeker</h3>
-        <p>Android app that uses the Traveling Salesman algorithm to find the shortest path to animal exhibits.</p>
-    </section>
-
     <section id="skills">
         <h2>Skills</h2>
         <p>AI/ML, Programming Languages (R, Python, Java, C, C++), Git, Node.js, React, MySQL, MongoDB, Flask, AWS, Docker, Google Cloud Service, Linux, HTML/CSS, Bioinformatics Techniques.</p>
@@ -139,7 +158,7 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: xiwang@hms.harvard.edu</p>
+        <p>Email: xiwang2@ethz.ch</p>
     </section>
 
     <footer>
